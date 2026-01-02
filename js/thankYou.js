@@ -16,7 +16,7 @@ async function sendFormData() {
 
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbz16xB2CZxpH2PKj6oM6G8nQWgY9ieNN35N28vkgnGfhLhxBdRvM-o5Mlse9TnGYf7E/exec",
+      "https://script.google.com/macros/s/AKfycbyUs3XZ4Eua6ejkxMoFPv3gkMnO6RyqA6W7kHVXJL54s_mc8DBtFd0SNGbEce14PCI/exec",
       {
         method: "POST",
         body: formData,
